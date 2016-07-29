@@ -26,6 +26,36 @@
       height: 100%;
       width: 50%;
       float: left; }
+  .analog-clock .minute {
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1; }
+    .analog-clock .minute .not-painted {
+      height: 100%;
+      width: 50%;
+      float: left; }
+    .analog-clock .minute .painted {
+      background-color: blue;
+      height: 100%;
+      width: 50%;
+      float: left; }
+  .analog-clock .second {
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 2; }
+    .analog-clock .second .not-painted {
+      height: 100%;
+      width: 50%;
+      float: left; }
+    .analog-clock .second .painted {
+      background-color: yellow;
+      height: 100%;
+      width: 50%;
+      float: left; }
 
 .number {
   position: absolute; }

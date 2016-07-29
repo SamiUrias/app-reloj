@@ -2,9 +2,9 @@
 $analog-clock-background: #078000;
 $analog-clock-border-color: black;
 $analog-clock-hour-hand-color: red;
-$analog-clock-hour-hand-color: blue;
-$analog-clock-minute-hand-color: yellow;
-$analog-clock-second-hand-dimentions: 100%;
+$analog-clock-minute-hand-color: blue;
+$analog-clock-second-hand-color: yellow;
+$analog-clock-hour-hand-dimentions: 100%;
 $analog-clock-border-size: 2px;
 $analog-clock-size: 300px;
 
@@ -54,6 +54,7 @@ $digital-clock-font-color: green;
     position: absolute;
     top: 50%;
     width: $analog-clock-hour-hand-dimentions;
+    z-index: 1;
 
     & .not-painted{
       height: 100%;
@@ -64,6 +65,28 @@ $digital-clock-font-color: green;
 
     & .painted{
       background-color: $analog-clock-minute-hand-color;
+      height: 100%;
+      width: 50%;
+      float: left
+    }
+  }
+
+  & .second{
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    width: $analog-clock-hour-hand-dimentions;
+    z-index: 2;
+
+    & .not-painted{
+      height: 100%;
+      width: 50%;
+      float: left
+    }
+
+
+    & .painted{
+      background-color: $analog-clock-second-hand-color;
       height: 100%;
       width: 50%;
       float: left
