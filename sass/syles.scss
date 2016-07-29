@@ -1,0 +1,87 @@
+/*** BEGIN: Variable ***/
+$analog-clock-background: #078000;
+$analog-clock-border-color: black;
+$analog-clock-hour-hand-color: red;
+$analog-clock-hour-hand-color: blue;
+$analog-clock-minute-hand-color: yellow;
+$analog-clock-second-hand-dimentions: 100%;
+$analog-clock-border-size: 2px;
+$analog-clock-size: 300px;
+
+$digital-clock-font-color: green;
+/*** END: Variables ***/
+
+
+.digital-clock{
+  color: $digital-clock-font-color;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+
+}
+
+.analog-clock{
+  background-color: $analog-clock-background;
+  border: $analog-clock-border-size solid $analog-clock-border-color;
+  border-radius: 100%;
+  height: $analog-clock-size;
+  position: relative;
+  width:  $analog-clock-size;
+
+  & .hour{
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    width: $analog-clock-hour-hand-dimentions;
+
+    & .not-painted{
+      height: 100%;
+      width: 50%;
+      float: left
+    }
+
+
+    & .painted{
+      background-color: $analog-clock-hour-hand-color;
+      height: 100%;
+      width: 50%;
+      float: left
+    }
+
+  }
+
+  & .minute{
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    width: $analog-clock-hour-hand-dimentions;
+
+    & .not-painted{
+      height: 100%;
+      width: 50%;
+      float: left
+    }
+
+
+    & .painted{
+      background-color: $analog-clock-minute-hand-color;
+      height: 100%;
+      width: 50%;
+      float: left
+    }
+  }
+}
+
+.number{
+  position: absolute;
+}
+
+
+$rotate-label: rotate;
+$deg:deg;
+$initial-state:90;
+@for $i from 0 through 60{
+ .#{$rotate-label}-#{$i}{
+   transform: rotate($i*6deg+$initial-state);
+ }
+}
+

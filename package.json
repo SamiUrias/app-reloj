@@ -1,0 +1,26 @@
+{
+  "name": "reloj",
+  "version": "1.0.0",
+  "description": "Este es el ejercicio de la arquitectura de aplicaciones de javacript dictado por Samuel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamiUrias/reloj-javascript.git"
+  },
+  "keywords": [
+    "reloj",
+    "javascript"
+  ],
+  "author": "Samuel Urias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamiUrias/reloj-javascript/issues"
+  },
+  "homepage": "https://github.com/SamiUrias/reloj-javascript#readme",
+  "dependencies": {
+    "gulp-sass": "^2.3.2"
+  }
+}

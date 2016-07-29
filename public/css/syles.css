@@ -1,0 +1,214 @@
+/*** BEGIN: Variable ***/
+/*** END: Variables ***/
+.digital-clock {
+  color: green;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em; }
+
+.analog-clock {
+  background-color: #078000;
+  border: 2px solid black;
+  border-radius: 100%;
+  height: 300px;
+  position: relative;
+  width: 300px; }
+  .analog-clock .hour {
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    width: 100%; }
+    .analog-clock .hour .not-painted {
+      height: 100%;
+      width: 50%;
+      float: left; }
+    .analog-clock .hour .painted {
+      background-color: red;
+      height: 100%;
+      width: 50%;
+      float: left; }
+
+.number {
+  position: absolute; }
+
+.rotate-0 {
+  transform: rotate(90deg); }
+
+.rotate-1 {
+  transform: rotate(96deg); }
+
+.rotate-2 {
+  transform: rotate(102deg); }
+
+.rotate-3 {
+  transform: rotate(108deg); }
+
+.rotate-4 {
+  transform: rotate(114deg); }
+
+.rotate-5 {
+  transform: rotate(120deg); }
+
+.rotate-6 {
+  transform: rotate(126deg); }
+
+.rotate-7 {
+  transform: rotate(132deg); }
+
+.rotate-8 {
+  transform: rotate(138deg); }
+
+.rotate-9 {
+  transform: rotate(144deg); }
+
+.rotate-10 {
+  transform: rotate(150deg); }
+
+.rotate-11 {
+  transform: rotate(156deg); }
+
+.rotate-12 {
+  transform: rotate(162deg); }
+
+.rotate-13 {
+  transform: rotate(168deg); }
+
+.rotate-14 {
+  transform: rotate(174deg); }
+
+.rotate-15 {
+  transform: rotate(180deg); }
+
+.rotate-16 {
+  transform: rotate(186deg); }
+
+.rotate-17 {
+  transform: rotate(192deg); }
+
+.rotate-18 {
+  transform: rotate(198deg); }
+
+.rotate-19 {
+  transform: rotate(204deg); }
+
+.rotate-20 {
+  transform: rotate(210deg); }
+
+.rotate-21 {
+  transform: rotate(216deg); }
+
+.rotate-22 {
+  transform: rotate(222deg); }
+
+.rotate-23 {
+  transform: rotate(228deg); }
+
+.rotate-24 {
+  transform: rotate(234deg); }
+
+.rotate-25 {
+  transform: rotate(240deg); }
+
+.rotate-26 {
+  transform: rotate(246deg); }
+
+.rotate-27 {
+  transform: rotate(252deg); }
+
+.rotate-28 {
+  transform: rotate(258deg); }
+
+.rotate-29 {
+  transform: rotate(264deg); }
+
+.rotate-30 {
+  transform: rotate(270deg); }
+
+.rotate-31 {
+  transform: rotate(276deg); }
+
+.rotate-32 {
+  transform: rotate(282deg); }
+
+.rotate-33 {
+  transform: rotate(288deg); }
+
+.rotate-34 {
+  transform: rotate(294deg); }
+
+.rotate-35 {
+  transform: rotate(300deg); }
+
+.rotate-36 {
+  transform: rotate(306deg); }
+
+.rotate-37 {
+  transform: rotate(312deg); }
+
+.rotate-38 {
+  transform: rotate(318deg); }
+
+.rotate-39 {
+  transform: rotate(324deg); }
+
+.rotate-40 {
+  transform: rotate(330deg); }
+
+.rotate-41 {
+  transform: rotate(336deg); }
+
+.rotate-42 {
+  transform: rotate(342deg); }
+
+.rotate-43 {
+  transform: rotate(348deg); }
+
+.rotate-44 {
+  transform: rotate(354deg); }
+
+.rotate-45 {
+  transform: rotate(360deg); }
+
+.rotate-46 {
+  transform: rotate(366deg); }
+
+.rotate-47 {
+  transform: rotate(372deg); }
+
+.rotate-48 {
+  transform: rotate(378deg); }
+
+.rotate-49 {
+  transform: rotate(384deg); }
+
+.rotate-50 {
+  transform: rotate(390deg); }
+
+.rotate-51 {
+  transform: rotate(396deg); }
+
+.rotate-52 {
+  transform: rotate(402deg); }
+
+.rotate-53 {
+  transform: rotate(408deg); }
+
+.rotate-54 {
+  transform: rotate(414deg); }
+
+.rotate-55 {
+  transform: rotate(420deg); }
+
+.rotate-56 {
+  transform: rotate(426deg); }
+
+.rotate-57 {
+  transform: rotate(432deg); }
+
+.rotate-58 {
+  transform: rotate(438deg); }
+
+.rotate-59 {
+  transform: rotate(444deg); }
+
+.rotate-60 {
+  transform: rotate(450deg); }
